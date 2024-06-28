@@ -80,4 +80,27 @@ This is a full-stack application built with Django for the backend and React wit
 
     Open your web browser and go to `http://localhost:3000/` to access the application.
 
+4. **(OPTIONAL) Manually populate database**:
+
+    To manually populate the database, use the django admin panel:
+
+    - Create a superuser
+    ```sh
+    python manage.py createsuperuser
+    ```
+    - Start the backend server
+    ```sh
+    python manage.py runserver
+    ```
+    - Enter the admin site in your browser at:
+    ```sh
+    127.0.0.1:8000/admin
+    ```
+
+    
+
+
+    
+
+
 
