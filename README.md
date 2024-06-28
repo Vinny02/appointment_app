@@ -3,7 +3,7 @@
 This is a full-stack application built with Django for the backend and React with Tailwind CSS for the frontend. The application allows users to manage appointments.
 
 ## Prerequisites
-
+- [Node.js](https://nodejs.org/) (needed for the React frontend)
 - [Python](https://www.python.org/) (for the backend)
 - [pip](https://pip.pypa.io/en/stable/) (Python package installer)
 
@@ -17,19 +17,26 @@ This is a full-stack application built with Django for the backend and React wit
     git clone https://github.com/Vinny02/appointment_app.git
     ```
 
-2. **Navigate to main folder**:
+2. **Install backend dependencies**:
+
+    ```sh
+    pip install Django djangorestframework
+    ```
+
+3. **Navigate to main folder**:
 
     ```sh
     ../appointment_app/patient_management
     ```
+    
 
-3. **Run database migrations**:
+4. **Run database migrations**:
 
     ```sh
     python manage.py migrate
     ```
 
-4. **Start the backend server**:
+5. **Start the backend server**:
 
     ```sh
     python manage.py runserver
