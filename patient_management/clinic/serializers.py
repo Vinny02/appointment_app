@@ -31,6 +31,9 @@ class PatientSerializer(serializers.ModelSerializer):
         return value
 
 class AppointmentSerializer(serializers.ModelSerializer):
+    patient = PatientSerializer()
+    clinician = ClinicianSerializer()
+
     class Meta:
         model = Appointment
         fields = '__all__'
