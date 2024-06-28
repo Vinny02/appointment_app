@@ -4,7 +4,6 @@ This is a full-stack application built with Django for the backend and React wit
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) (for the frontend)
 - [Python](https://www.python.org/) (for the backend)
 - [pip](https://pip.pypa.io/en/stable/) (Python package installer)
 
